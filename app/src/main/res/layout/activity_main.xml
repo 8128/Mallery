@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- 这个是在容器中央的 -->
+
+    <ImageView
+        android:id="@+id/transparent"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true" />
+
+    <!-- 在中间图片的左边 -->
+    <ImageButton
+        android:id="@+id/pic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/transparent"
+        android:background="@color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/pic"
+        app:srcCompat="@mipmap/pic" />
+
+    <!-- 在中间图片的右边 -->
+    <ImageButton
+        android:id="@+id/edit"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/transparent"
+        android:background="@color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/edit"
+        app:srcCompat="@mipmap/edit" />
+
+    <!-- 在中间图片的上面-->
+    <ImageButton
+        android:id="@+id/category"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@id/transparent"
+        android:layout_centerHorizontal="true"
+        android:background="@color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/category"
+        app:srcCompat="@mipmap/category" />
+
+    <!-- 在中间图片的下面 -->
+    <ImageButton
+        android:id="@+id/set"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/transparent"
+        android:layout_centerHorizontal="true"
+        android:background="@color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/set"
+        app:srcCompat="@mipmap/set" />
+
+</RelativeLayout>

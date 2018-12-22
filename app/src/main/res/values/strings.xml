@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Mallery</string>
+    <string name="content_description">non-description</string>
+    <string name="title_activity_gallery">GalleryActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_set">SetActivity</string>
+    <string name="title_activity_cate">CateActivity</string>
+    <string name="title_activity_tag">TagActivity</string>
+</resources>
